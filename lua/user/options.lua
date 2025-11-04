@@ -5,8 +5,8 @@ local opt = vim.opt -- Atalho para vim.opt
 opt.relativenumber = true -- Mostra números de linha relativos
 opt.number = true         -- Mostra o número da linha atual
 -- [[ Tabs e Indentação ]]
-opt.tabstop = 2      -- Número de espaços que um <Tab> conta.
-opt.shiftwidth = 2   -- Número de espaços para usar em operações de indentação.
+opt.tabstop = 4      -- Número de espaços que um <Tab> conta.
+opt.shiftwidth = 4   -- Número de espaços para usar em operações de indentação.
 opt.expandtab = true -- Usar espaços em vez de tabs.
 opt.autoindent = true -- Indentação automática
 -- [[ Busca ]]
